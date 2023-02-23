@@ -1,0 +1,75 @@
+body{
+    background-color: #222438;
+    margin:0;
+}
+a{
+    font-family: Montserrat;
+}
+p{
+    font-family: 'Roboto Mono';
+    color: #cad3f5;
+}
+a:link { 
+    text-decoration: none;
+}
+a:visited { 
+    text-decoration: none; 
+}
+a:active { 
+    text-decoration: none; 
+}
+
+button:hover{
+    background-color: #c3a4f3;
+    color: white;
+}
+h1{
+    font-family: 'Cairo Play', cursive;
+    color: #c3a4f3;
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+    color: #cad3f5;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    color: #c3a4f3;
+}
+.navbar1{
+    background-color: #333;
+    overflow: hidden;
+    height: fit-content;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.btn{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #333 ;
+    border: none;
+}
+.btn:hover{
+    color: #c3a4f3;
+}
+.highlight_btn{
+    background-color: #c3a4f3;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.banner{
+    width: 1584 px;
+    height: 396 px;
+}
+.intro{
+    font-size: 14pt;
+    width: 70%;
+}
