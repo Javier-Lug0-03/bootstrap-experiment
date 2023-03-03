@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/9f94c3f949.js" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
     <title>TC1005B - Web</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
     </p>
     </center>
     <center>
-    <div class="dummy">
+    <div class="dummy" onclick="greet()">
         <img src="assets/index.jpg" width="200px">
     </div>
     </center>
@@ -62,8 +63,8 @@
         <textarea name="comments" rows="12" cols="35">Send your comments</textarea>
         <br>
         <br>
-        <input type="submit" value="Send">
-        <input type="reset" name="reset">
+        <input type="submit" value="Send" onclick="greet()">
+        <input type="reset" name="reset" onclick="greet()">
     </form>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
